@@ -1,0 +1,142 @@
+2018-11-20 20:33:00 DEBUG GenericWebApplicationContext: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7975d1d8
+2018-11-20 20:33:15 DEBUG SimpleUrlHandlerMapping: Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-11-20 20:33:16 DEBUG RequestMappingHandlerAdapter: ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2018-11-20 20:33:16 DEBUG RequestMappingHandlerMapping: 4 mappings in 'requestMappingHandlerMapping'
+2018-11-20 20:33:16 DEBUG SimpleUrlHandlerMapping: Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-11-20 20:33:16 DEBUG ExceptionHandlerExceptionResolver: ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-11-20 20:33:59 DEBUG GenericWebApplicationContext: Closing org.springframework.web.context.support.GenericWebApplicationContext@7975d1d8, started on Tue Nov 20 20:33:00 EET 2018
+2018-11-20 20:35:48 DEBUG ContextLoader: Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-11-20 20:35:48 INFO  ContextLoader: Root WebApplicationContext: initialization completed in 2339 ms
+2018-11-20 20:35:48 DEBUG SimpleUrlHandlerMapping: Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-11-20 20:35:48 DEBUG RequestMappingHandlerAdapter: ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2018-11-20 20:35:48 DEBUG RequestMappingHandlerMapping: 4 mappings in 'requestMappingHandlerMapping'
+2018-11-20 20:35:48 DEBUG SimpleUrlHandlerMapping: Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-11-20 20:35:48 DEBUG ExceptionHandlerExceptionResolver: ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-11-20 20:38:21 INFO  DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2018-11-20 20:38:21 DEBUG DispatcherServlet: Detected StandardServletMultipartResolver
+2018-11-20 20:38:21 DEBUG DispatcherServlet: enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2018-11-20 20:38:21 INFO  DispatcherServlet: Completed initialization in 131 ms
+2018-11-20 20:38:21 DEBUG DispatcherServlet: GET "/getValue/key3", parameters={}
+2018-11-20 20:38:21 DEBUG RequestMappingHandlerMapping: Mapped to public model.Key com.prototype.bootsoap.BootsoapApplication.getValue(java.lang.String)
+2018-11-20 20:38:23 DEBUG RequestResponseBodyMethodProcessor: Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-11-20 20:38:23 DEBUG RequestResponseBodyMethodProcessor: Writing [model.Key@771c5df4]
+2018-11-20 20:38:24 DEBUG DispatcherServlet: Completed 200 OK
+2018-11-20 20:38:29 DEBUG DispatcherServlet: GET "/getValue/key1", parameters={}
+2018-11-20 20:38:29 DEBUG RequestMappingHandlerMapping: Mapped to public model.Key com.prototype.bootsoap.BootsoapApplication.getValue(java.lang.String)
+2018-11-20 20:38:29 DEBUG RequestResponseBodyMethodProcessor: Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-11-20 20:38:29 DEBUG RequestResponseBodyMethodProcessor: Writing [model.Key@746f4a58]
+2018-11-20 20:38:29 DEBUG DispatcherServlet: Completed 200 OK
+2018-11-20 20:41:07 DEBUG DispatcherServlet: GET "/", parameters={}
+2018-11-20 20:41:08 DEBUG SimpleUrlHandlerMapping: Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2018-11-20 20:41:08 DEBUG ResourceHttpRequestHandler: Resource not found
+2018-11-20 20:41:08 DEBUG DispatcherServlet: Completed 404 NOT_FOUND
+2018-11-20 20:41:09 DEBUG DispatcherServlet: "ERROR" dispatch for GET "/error", parameters={}
+2018-11-20 20:41:09 DEBUG RequestMappingHandlerMapping: Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-20 20:41:10 DEBUG HttpEntityMethodProcessor: Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-11-20 20:41:10 DEBUG HttpEntityMethodProcessor: Writing [{timestamp=Tue Nov 20 20:41:09 EET 2018, status=404, error=Not Found, message=No message available, path=/}]
+2018-11-20 20:41:10 DEBUG DispatcherServlet: Exiting from "ERROR" dispatch, status 404
+2018-11-20 21:19:47 DEBUG GenericWebApplicationContext: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@769a1df5
+2018-11-20 21:20:00 DEBUG SimpleUrlHandlerMapping: Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-11-20 21:20:01 DEBUG RequestMappingHandlerAdapter: ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2018-11-20 21:20:02 DEBUG RequestMappingHandlerMapping: 4 mappings in 'requestMappingHandlerMapping'
+2018-11-20 21:20:02 DEBUG SimpleUrlHandlerMapping: Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-11-20 21:20:02 DEBUG ExceptionHandlerExceptionResolver: ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-11-20 21:20:19 DEBUG GenericWebApplicationContext: Closing org.springframework.web.context.support.GenericWebApplicationContext@769a1df5, started on Tue Nov 20 21:19:47 EET 2018
+2018-11-20 21:21:33 DEBUG GenericWebApplicationContext: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@24105dc5
+2018-11-20 21:21:44 DEBUG SimpleUrlHandlerMapping: Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-11-20 21:21:44 DEBUG RequestMappingHandlerAdapter: ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2018-11-20 21:21:45 DEBUG RequestMappingHandlerMapping: 4 mappings in 'requestMappingHandlerMapping'
+2018-11-20 21:21:45 DEBUG SimpleUrlHandlerMapping: Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-11-20 21:21:45 DEBUG ExceptionHandlerExceptionResolver: ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-11-20 21:21:50 DEBUG GenericWebApplicationContext: Closing org.springframework.web.context.support.GenericWebApplicationContext@24105dc5, started on Tue Nov 20 21:21:33 EET 2018
+2018-11-20 21:22:32 DEBUG ContextLoader: Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-11-20 21:22:32 INFO  ContextLoader: Root WebApplicationContext: initialization completed in 1535 ms
+2018-11-20 21:22:32 DEBUG SimpleUrlHandlerMapping: Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-11-20 21:22:32 DEBUG RequestMappingHandlerAdapter: ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2018-11-20 21:22:32 DEBUG RequestMappingHandlerMapping: 4 mappings in 'requestMappingHandlerMapping'
+2018-11-20 21:22:32 DEBUG SimpleUrlHandlerMapping: Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-11-20 21:22:32 DEBUG ExceptionHandlerExceptionResolver: ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-11-20 21:22:56 INFO  DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2018-11-20 21:22:56 DEBUG DispatcherServlet: Detected StandardServletMultipartResolver
+2018-11-20 21:22:56 DEBUG DispatcherServlet: enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2018-11-20 21:22:56 INFO  DispatcherServlet: Completed initialization in 9 ms
+2018-11-20 21:22:56 DEBUG DispatcherServlet: GET "/getValue/key2", parameters={}
+2018-11-20 21:22:56 DEBUG RequestMappingHandlerMapping: Mapped to public model.Key com.prototype.bootsoap.BootsoapApplication.getValue(java.lang.String)
+2018-11-20 21:22:57 DEBUG RequestResponseBodyMethodProcessor: Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-11-20 21:22:57 DEBUG RequestResponseBodyMethodProcessor: Writing [model.Key@58b8358c]
+2018-11-20 21:22:57 DEBUG DispatcherServlet: Completed 200 OK
+2018-11-20 21:23:07 DEBUG DispatcherServlet: GET "/getValue/key", parameters={}
+2018-11-20 21:23:07 DEBUG RequestMappingHandlerMapping: Mapped to public model.Key com.prototype.bootsoap.BootsoapApplication.getValue(java.lang.String)
+2018-11-20 21:23:07 DEBUG DispatcherServlet: Failed to complete request: java.util.NoSuchElementException: No value present
+2018-11-20 21:23:07 ERROR [dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:135)
+	at com.prototype.bootsoap.BootsoapApplication.getValue(BootsoapApplication.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 21:23:07 DEBUG DispatcherServlet: "ERROR" dispatch for GET "/error", parameters={}
+2018-11-20 21:23:07 DEBUG RequestMappingHandlerMapping: Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-20 21:23:07 DEBUG ContentNegotiatingViewResolver: Selected 'text/html' given [text/html, text/html;q=0.8]
+2018-11-20 21:23:07 DEBUG DispatcherServlet: Exiting from "ERROR" dispatch, status 500
+2018-11-20 21:23:17 DEBUG DispatcherServlet: GET "/getValue/key1", parameters={}
+2018-11-20 21:23:17 DEBUG RequestMappingHandlerMapping: Mapped to public model.Key com.prototype.bootsoap.BootsoapApplication.getValue(java.lang.String)
+2018-11-20 21:23:17 DEBUG RequestResponseBodyMethodProcessor: Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-11-20 21:23:17 DEBUG RequestResponseBodyMethodProcessor: Writing [model.Key@2aa074b]
+2018-11-20 21:23:17 DEBUG DispatcherServlet: Completed 200 OK
+2018-11-20 21:23:52 DEBUG DispatcherServlet: GET "/getallvalues", parameters={}
+2018-11-20 21:23:52 DEBUG RequestMappingHandlerMapping: Mapped to public java.util.List<model.Key> com.prototype.bootsoap.BootsoapApplication.getAllValues()
+2018-11-20 21:23:52 DEBUG RequestResponseBodyMethodProcessor: Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-11-20 21:23:52 DEBUG RequestResponseBodyMethodProcessor: Writing [[model.Key@2aa074b, model.Key@58b8358c, model.Key@5f5a3be5]]
+2018-11-20 21:23:52 DEBUG DispatcherServlet: Completed 200 OK
